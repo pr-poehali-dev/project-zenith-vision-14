@@ -42,13 +42,13 @@ export default function PricingSection() {
           </div>
 
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-serif tracking-tight">
-            Выберите подходящий план для вашего бизнеса
+            Выберите подходящий формат квеста
           </div>
 
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Масштабируйте операции с гибкими тарифами, которые растут вместе с вашей командой.
+            Начните бесплатно и попробуйте первый квест — без ограничений.
             <br />
-            Начните бесплатно, переходите на платный план когда будете готовы.
+            Переходите на расширенный план, когда будете готовы расти.
           </div>
         </div>
       </div>
@@ -120,9 +120,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 border border-[#E0DEDB] overflow-hidden flex flex-col justify-start items-start gap-12 bg-[rgba(255,255,255,0)]">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Стартовый</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Пробный</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Идеально для частных лиц и небольших команд, которые только начинают.
+                    Идеально чтобы попробовать и создать первый квест.
                   </div>
                 </div>
 
@@ -167,11 +167,11 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "До 3 проектов",
-                  "Базовые инструменты документации",
+                  "1 квест",
+                  "До 10 QR-точек",
+                  "До 20 участников",
+                  "Базовые типы заданий",
                   "Поддержка сообщества",
-                  "Стандартные шаблоны",
-                  "Базовая аналитика",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -197,9 +197,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 bg-[#37322F] border border-[rgba(55,50,47,0.12)] overflow-hidden flex flex-col justify-start items-start gap-12">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Профессиональный</div>
+                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Стандартный</div>
                   <div className="w-full max-w-[242px] text-[#B2AEA9] text-sm font-normal leading-5 font-sans">
-                    Расширенные возможности для растущих команд и бизнеса.
+                    Для регулярных квестов и групп до 100 участников.
                   </div>
                 </div>
 
@@ -244,14 +244,14 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Безлимитные проекты",
-                  "Расширенные инструменты документации",
+                  "До 10 квестов",
+                  "Неограниченно QR-точек",
+                  "До 100 участников",
+                  "Все типы заданий",
+                  "Аналитика и статистика",
+                  "Командные режимы",
                   "Приоритетная поддержка",
-                  "Пользовательские шаблоны",
-                  "Продвинутая аналитика",
-                  "Командное сотрудничество",
-                  "Доступ к API",
-                  "Пользовательские интеграции",
+                  "Брендирование квеста",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -277,7 +277,7 @@ export default function PricingSection() {
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
                   <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Корпоративный</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Полное решение для крупных организаций и предприятий.
+                    Для школ, университетов и крупных мероприятий.
                   </div>
                 </div>
 
@@ -322,14 +322,14 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Все из Профессионального",
+                  "Неограниченное количество квестов",
+                  "Неограниченно участников",
                   "Персональный менеджер",
-                  "Поддержка 24/7 по телефону",
-                  "Индивидуальный онбординг",
-                  "Расширенные функции безопасности",
-                  "Интеграция SSO",
-                  "Индивидуальные контракты",
-                  "White-label решения",
+                  "Поддержка при запуске",
+                  "White-label брендирование",
+                  "Экспорт результатов",
+                  "Индивидуальные интеграции",
+                  "Приоритетная поддержка 24/7",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">

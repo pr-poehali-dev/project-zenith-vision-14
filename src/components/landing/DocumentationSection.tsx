@@ -22,18 +22,18 @@ export default function DocumentationSection() {
 
   const cards = [
     {
-      title: "Планируйте расписание",
-      description: "Исследуйте данные, создавайте дашборды,\nобъединяйте команду.",
+      title: "Создай маршрут квеста",
+      description: "Разместите QR-коды в нужных точках\nи привяжите к каждому своё задание.",
       image: "/modern-dashboard-interface-with-data-visualization.jpg",
     },
     {
-      title: "От данных к инсайтам за минуты",
-      description: "Превращайте сырые данные в действенные выводы\nс помощью мощных инструментов аналитики.",
+      title: "Участники сканируют и отвечают",
+      description: "Каждый QR-код открывает уникальное задание\nпрямо в браузере смартфона.",
       image: "/analytics-dashboard.png",
     },
     {
-      title: "Работайте вместе без усилий",
-      description: "Работайте в режиме реального времени с командой\nи делитесь инсайтами мгновенно.",
+      title: "Следите за результатами",
+      description: "Наблюдайте в реальном времени кто где находится\nи кто уже завершил квест.",
       image: "/team-collaboration-interface-with-shared-workspace.jpg",
     },
   ];
@@ -61,15 +61,15 @@ export default function DocumentationSection() {
             icon={
               <div className="w-[10.50px] h-[10.50px] outline outline-[1.17px] outline-[#37322F] outline-offset-[-0.58px] rounded-full"></div>
             }
-            text="Возможности платформы"
+            text="Как это работает"
           />
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-            Оптимизируйте бизнес-процессы
+            Три шага к готовому квесту
           </div>
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Управляйте расписанием, анализируйте данные и работайте с командой
+            Создайте маршрут, разместите QR-коды и запустите квест
             <br />
-            на одной мощной платформе.
+            за считанные минуты.
           </div>
         </div>
       </div>
